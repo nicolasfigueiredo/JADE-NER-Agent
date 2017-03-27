@@ -15,6 +15,6 @@ Resposta enviada:
 
 ## Usage
 
-Baixe de http://www.inf.pucrs.br/linatural/Recursos/ o zip NER-to-Portuguese.zip, e descompacte a pasta Categorizador_entidades para o diretório de trabalho. Para rodar o JADE criando o agente, o classpath deve conter o caminho para as bibliotecas opennlp-tools, jade.jar e o arquivo Entidade.java. Exemplo:
+Baixe de http://www.inf.pucrs.br/linatural/Recursos/ o zip NER-to-Portuguese.zip, e descompacte a pasta Categorizador_entidades para o diretório de trabalho. Para rodar o JADE criando o agente, o classpath deve conter o caminho para as bibliotecas opennlp-tools, jade.jar e o arquivo Categorizador_entidades/src/Entidade.java. Exemplo:
 
 `java -cp apache-opennlp-1.7.2/lib/opennlp-tools-1.7.2.jar:./:jade/lib/jade.jar jade.Boot -gui -agents foo:NERAgent`
